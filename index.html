@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Yue Wang's personal academic homepage.">
+  <title>Yue Wang | Academic Homepage</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #202938;
+      --muted: #657184;
+      --accent: #315b83;
+      --line: #e5eaf0;
+      --paper: #ffffff;
+      --soft: #f6f8fb;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--soft);
+      color: var(--ink);
+      font: 16px/1.7 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+    .page {
+      width: min(860px, calc(100% - 36px));
+      margin: 56px auto;
+      padding: 52px 60px;
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      box-shadow: 0 12px 36px rgba(28, 43, 62, .06);
+    }
+    header { padding-bottom: 28px; border-bottom: 1px solid var(--line); }
+    h1 { margin: 0; font-size: clamp(2.2rem, 6vw, 3rem); line-height: 1.15; letter-spacing: -.04em; }
+    .cn { margin: 8px 0 2px; color: var(--muted); font-size: 1.05rem; }
+    .affiliation { margin: 4px 0 0; color: var(--muted); }
+    .links { margin-top: 18px; display: flex; flex-wrap: wrap; gap: 16px; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    section { margin-top: 30px; }
+    h2 { margin: 0 0 10px; font-size: 1.15rem; letter-spacing: .01em; }
+    p { margin: 0; }
+    ul { margin: 8px 0 0; padding-left: 22px; }
+    li { padding: 2px 0; }
+    .entry-title { font-weight: 600; }
+    .entry-sub { color: var(--muted); }
+    footer {
+      margin-top: 42px;
+      padding-top: 18px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-size: .88rem;
+    }
+    @media (max-width: 600px) {
+      .page { margin: 18px auto; padding: 30px 24px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header>
+      <h1>Yue Wang</h1>
+      <p class="cn">王玥</p>
+      <p class="affiliation">Undergraduate Student · Harbin Engineering University</p>
+      <nav class="links" aria-label="Contact links">
+        <a href="mailto:heuwangyue@outlook.com">Email</a>
+        <a href="https://github.com/kewy224" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </nav>
+    </header>
+
+    <section>
+      <h2>About Me</h2>
+      <p>
+        I am an undergraduate student at Harbin Engineering University.
+        I am interested in artificial intelligence, machine learning, and robotics.
+      </p>
+    </section>
+
+    <section>
+      <h2>Research Interests</h2>
+      <ul>
+        <li>Robot Learning</li>
+        <li>Artificial Intelligence and Machine Learning</li>
+        <li>Multimodal Learning</li>
+        <li>Computer Vision</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Education</h2>
+      <p class="entry-title">Harbin Engineering University</p>
+      <p class="entry-sub">Undergraduate Student</p>
+    </section>
+
+    <section>
+      <h2>Projects</h2>
+      <p>
+        I am interested in exploring learning-based methods for intelligent
+        systems and robotics. This section will be updated as projects are
+        ready to be shared.
+      </p>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p><a href="mailto:heuwangyue@outlook.com">heuwangyue@outlook.com</a></p>
+    </section>
+
+    <footer>
+      © <span id="year">2026</span> Yue Wang. All rights reserved.
+    </footer>
+  </main>
+</body>
+</html>
